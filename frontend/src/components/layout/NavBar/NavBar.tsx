@@ -16,8 +16,18 @@ export default function NavBar() {
             <Link to={'/'} ><img src="./logo-beige.png" alt="logo" className='w-32' /></Link>
             <div className='flex items-center gap-20'>
                 <ul className='flex gap-16 shrink-0'>
-                    <li><NavLink to={'/about'} className="text-white hover:text-green-300 whitespace-nowrap">¿Que es pasaLIBRO?</NavLink> </li>
-                    <li><NavLink to={'/upload'} className="text-white hover:text-green-300 whitespace-nowrap">Subir libro</NavLink> </li>
+                    <li>
+                        <NavLink to={'/about'}
+                            className={({ isActive }) => `text-white block py-2 px-4 rounded-lg ${isActive ? 'bg-green-600' : 'hover:bg-green-700'}`}>
+                            ¿Que es pasaLIBRO?
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={'/upload'}
+                            className={({ isActive }) => `text-white block py-2 px-4 rounded-lg ${isActive ? 'bg-green-600' : 'hover:bg-green-700'}`}>
+                            Subir un libro
+                        </NavLink>
+                    </li>
                 </ul>
                 <div className="flex-1">
                     <input
@@ -29,7 +39,10 @@ export default function NavBar() {
                     />
                 </div>
             </div>
-            <NavLink to={'/login'} className="text-white hover:text-green-300 whitespace-nowrap">Iniciar sesión/Registrarse</NavLink>
+            <NavLink to={'/login'}
+                className={({ isActive }) => `text-white block py-2 px-4 rounded-lg ${isActive ? 'bg-green-600' : 'hover:bg-green-700'}`}>
+                Iniciar sesión/Registrarse
+            </NavLink>
         </nav>
     )
 }
