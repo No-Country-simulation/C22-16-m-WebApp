@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function SideBar() {
 
@@ -10,7 +10,6 @@ export default function SideBar() {
     };
 
     return (
-        <div className="flex h-screen">
             <aside className="flex flex-col bg-green-600 text-white w-64 h-screen p-4">
                 <ul className="flex flex-col gap-4">
                     <li>
@@ -52,9 +51,5 @@ export default function SideBar() {
                     </li>
                 </ul>
             </aside>
-            <div className="flex-1 p-8 bg-gray-100">
-                <Outlet />
-            </div>
-        </div>
     )
 }
