@@ -1,12 +1,12 @@
 import React from 'react';
 import NavBar from './components/layout/NavBar/NavBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import HomePage from './components/HomePage/HomePage';
+import HomePage from './pages/HomePage';
 import AboutUs from './components/AboutUs/AboutUs';
-import UploadBook from './components/UploadBook/UploadBook';
-import LoginPage from './components/LoginPage/LoginPage';
+import UploadBook from './pages/UploadBook';
+import LoginPage from './pages/LoginPage';
 import SideBar from './components/layout/SideBar/SideBar';
-import ProfilePage from './components/ProfilePage/ProfilePage';
+import ProfilePage from './pages/ProfilePage';
 
 const App: React.FC = () => {
   return (
