@@ -1,0 +1,66 @@
+
+[
+    {
+        "id": "1",
+        "nombre": "El principito",
+        "autor": "Antoine De Saint-exupery",
+        "imagen": "https://m.media-amazon.com/images/I/714Hvb52n-L._AC_UL320_.jpg",
+        "categoria": "Infantiles"
+    },
+    {
+        "id": "2",
+        "nombre": "Robot salvaje",
+        "autor": "Peter Brown",
+        "imagen": "https://m.media-amazon.com/images/I/915qFO1BcxL._AC_UY218_.jpg",
+        "categoria": "Infantiles"
+    },
+    {
+        "id": "3",
+        "nombre": "En Busca de la Entrada Secreta",
+        "autor": "Rosario Ana",
+        "imagen": "https://m.media-amazon.com/images/I/61MFJ+Q2TOL._AC_UY218_.jpg",
+        "categoria": "Infantiles"
+    },
+    {
+        "id": "4",
+        "nombre": "En agosto nos vemos",
+        "autor": "Gabriel Garcia Marquez",
+        "imagen": "https://m.media-amazon.com/images/I/81SUQuwTljL._AC_UL320_.jpg",
+        "categoria": "Juveniles"
+    },
+    {
+        "id": "5",
+        "nombre": "Harry Potter y el prisionero de Azkaban",
+        "autor": "J k Rowling",
+        "imagen": "https://m.media-amazon.com/images/I/810uqfAaDsL._AC_UY218_.jpg",
+        "categoria": "Juveniles"
+    },
+    {
+        "id": "6",
+        "nombre": "Mi viaje sin ti",
+        "autor": "Alejandro Sequera",
+        "imagen": "https://m.media-amazon.com/images/I/613dCdJY2CL._AC_UL320_.jpg",
+        "categoria": "Juveniles"
+    },
+    {
+        "id": "7",
+        "nombre": "El viento conoce mi nombre",
+        "autor": "Isabel Allende",
+        "imagen": "https://m.media-amazon.com/images/I/81FMmcKIT1L._AC_UL320_.jpg",
+        "categoria": "Adultos"
+    },
+    {
+        "id": "8",
+        "nombre": "La suerte de los idiotas",
+        "autor": "Roberto Martinez Guzmán",
+        "imagen": "https://m.media-amazon.com/images/I/71m+FAPBVTL._AC_UL320_.jpg",
+        "categoria": "Adultos"
+    },
+    {
+        "id": "9",
+        "nombre": "El secreto de las olas",
+        "autor": "Gregg Dunnet",
+        "imagen": "https://m.media-amazon.com/images/I/615SuNj2kYL._AC_UL320_.jpg",
+        "categoria": "Adultos"
+    }
+]

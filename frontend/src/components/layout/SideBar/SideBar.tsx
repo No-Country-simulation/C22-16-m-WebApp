@@ -10,7 +10,7 @@ export default function SideBar() {
     };
 
     return (
-            <aside className="flex flex-col bg-green-600 text-white w-64 h-screen p-4">
+            <aside className="flex flex-col bg-green-600 text-white w-64 min-h-screen p-4">
                 <ul className="flex flex-col gap-4">
                     <li>
                         <NavLink
