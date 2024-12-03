@@ -29,19 +29,19 @@ export default function SideBar() {
                         {isCategoriesOpen && (
                             <ul className="ml-4 mt-2 flex flex-col gap-2">
                                 <li>
-                                    <NavLink to={'/categories/infantiles'}
+                                    <NavLink to={'/category/infantiles'}
                                         className={({ isActive }) => `text-white block py-2 px-4 rounded-lg ${isActive ? 'bg-green-800' : 'hover:bg-green-700'}`}>
                                         Infantiles
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to={'/categories/juveniles'}
+                                    <NavLink to={'/category/juveniles'}
                                         className={({ isActive }) => `text-white block py-2 px-4 rounded-lg ${isActive ? 'bg-green-800' : 'hover:bg-green-700'}`}>
                                         Juveniles
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to={'/categories/adultos'}
+                                    <NavLink to={'/category/adultos'}
                                         className={({ isActive }) => `text-white block py-2 px-4 rounded-lg ${isActive ? 'bg-green-800' : 'hover:bg-green-700'}`}>
                                         Adultos
                                     </NavLink>

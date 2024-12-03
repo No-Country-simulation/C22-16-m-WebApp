@@ -5,62 +5,71 @@
         "nombre": "El principito",
         "autor": "Antoine De Saint-exupery",
         "imagen": "https://m.media-amazon.com/images/I/714Hvb52n-L._AC_UL320_.jpg",
-        "categoria": "Infantiles"
+        "categoria": "Infantiles",
+        "descripcion": "Una obra atemporal que combina fantasía y filosofía, donde un joven príncipe explora distintos planetas y reflexiona sobre la vida, el amor y las relaciones humanas."
     },
     {
         "id": "2",
         "nombre": "Robot salvaje",
         "autor": "Peter Brown",
         "imagen": "https://m.media-amazon.com/images/I/915qFO1BcxL._AC_UY218_.jpg",
-        "categoria": "Infantiles"
+        "categoria": "Infantiles",
+        "descripcion": "Una encantadora historia sobre un robot que naufraga en una isla y debe aprender a vivir en armonía con la naturaleza mientras explora los valores de la amistad y la adaptación."
     },
     {
         "id": "3",
         "nombre": "En Busca de la Entrada Secreta",
         "autor": "Rosario Ana",
         "imagen": "https://m.media-amazon.com/images/I/61MFJ+Q2TOL._AC_UY218_.jpg",
-        "categoria": "Infantiles"
+        "categoria": "Infantiles",
+        "descripcion": "Un relato lleno de aventuras y misterio, en el que un grupo de amigos emprende un viaje emocionante en busca de una entrada secreta que los llevará a descubrir algo asombroso."
     },
     {
         "id": "4",
         "nombre": "En agosto nos vemos",
         "autor": "Gabriel Garcia Marquez",
         "imagen": "https://m.media-amazon.com/images/I/81SUQuwTljL._AC_UL320_.jpg",
-        "categoria": "Juveniles"
+        "categoria": "Juveniles",
+        "descripcion": "Una obra póstuma que explora los encuentros inesperados de Ana Magdalena Bach en sus visitas anuales al cementerio, entrelazando recuerdos, pasiones y reflexiones íntimas."
     },
     {
         "id": "5",
         "nombre": "Harry Potter y el prisionero de Azkaban",
         "autor": "J k Rowling",
         "imagen": "https://m.media-amazon.com/images/I/810uqfAaDsL._AC_UY218_.jpg",
-        "categoria": "Juveniles"
+        "categoria": "Juveniles",
+        "descripcion": "La tercera entrega de la icónica saga, donde Harry enfrenta nuevos retos al descubrir secretos sobre su pasado y luchar contra el peligroso Sirius Black mientras sigue en Hogwarts."
     },
     {
         "id": "6",
         "nombre": "Mi viaje sin ti",
         "autor": "Alejandro Sequera",
         "imagen": "https://m.media-amazon.com/images/I/613dCdJY2CL._AC_UL320_.jpg",
-        "categoria": "Juveniles"
+        "categoria": "Juveniles",
+        "descripcion": "Una conmovedora narración sobre la superación, el duelo y la búsqueda de la identidad mientras el autor recorre sus recuerdos y experiencias más personales."
     },
     {
         "id": "7",
         "nombre": "El viento conoce mi nombre",
         "autor": "Isabel Allende",
         "imagen": "https://m.media-amazon.com/images/I/81FMmcKIT1L._AC_UL320_.jpg",
-        "categoria": "Adultos"
+        "categoria": "Adultos",
+        "descripcion": "Una novela que entrelaza las historias de dos niños separados por el tiempo y el espacio, explorando temas como la migración, la pérdida y la resiliencia."
     },
     {
         "id": "8",
         "nombre": "La suerte de los idiotas",
         "autor": "Roberto Martinez Guzmán",
         "imagen": "https://m.media-amazon.com/images/I/71m+FAPBVTL._AC_UL320_.jpg",
-        "categoria": "Adultos"
+        "categoria": "Adultos",
+        "descripcion": "Un intrigante thriller policial que mezcla misterio y suspenso mientras un detective intenta resolver un caso lleno de giros inesperados."
     },
     {
         "id": "9",
         "nombre": "El secreto de las olas",
         "autor": "Gregg Dunnet",
         "imagen": "https://m.media-amazon.com/images/I/615SuNj2kYL._AC_UL320_.jpg",
-        "categoria": "Adultos"
+        "categoria": "Adultos",
+        "descripcion": "Una novela de misterio ambientada en un tranquilo pueblo costero, donde un surfista descubre oscuros secretos relacionados con un asesinato mientras busca la verdad entre las olas."
     }
 ]

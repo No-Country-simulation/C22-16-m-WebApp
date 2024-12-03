@@ -11,11 +11,11 @@ export default function BookCard({ nombre, autor, imagen, categoria }: BookCardP
             <img
                 src={imagen}
                 alt={nombre}
-                className="w-full h-40 object-contain rounded-md mb-4"
+                className="w-full h-40 object-contain rounded-md mb-6"
             />
             <h3 className="text-lg font-bold">{nombre}</h3>
             <p className="text-gray-600">Autor: {autor}</p>
-            <span className="text-sm text-gray-500">
+            <span className="text-sm text-gray-500 mb-6">
                 Categoría: {categoria}
             </span>
             <button className="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 mt-auto">Ver más</button>
