@@ -7,6 +7,7 @@ import UploadBook from './pages/UploadBook';
 import LoginPage from './pages/LoginPage';
 import SideBar from './components/layout/SideBar/SideBar';
 import ProfilePage from './pages/ProfilePage';
+import ProtectedRoute from './components/ProtectedRoutes/ProtectedRoute';
 
 const App: React.FC = () => {
   return (
@@ -19,10 +20,12 @@ const App: React.FC = () => {
             <Routes>
               <Route path='/' element={<HomePage />} />
               <Route path='/about' element={<AboutUs />} />
-              <Route path='/upload' element={<UploadBook />} />
               <Route path='/login' element={<LoginPage />} />
-              <Route path='/profile' element={<ProfilePage />} />
               <Route path='/category/:categoryId' element={<HomePage />} />
+
+              {/* Rutas protegidas */}
+              <Route path="/upload"element={ <ProtectedRoute element={<UploadBook /> } />}/>
+              <Route path="/profile" element={ <ProtectedRoute element={<ProfilePage />} /> }/>
             </Routes>
           </div>
         </div>
@@ -30,10 +33,5 @@ const App: React.FC = () => {
     </>
   );
 };
-
-
-
-
-
 
 export default App;
