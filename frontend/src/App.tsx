@@ -8,6 +8,7 @@ import LoginPage from './pages/LoginPage';
 import SideBar from './components/layout/SideBar/SideBar';
 import ProfilePage from './pages/ProfilePage';
 import ProtectedRoute from './components/ProtectedRoutes/ProtectedRoute';
+import EditProfile from './pages/EditProfile';
 
 const App: React.FC = () => {
   return (
@@ -26,6 +27,7 @@ const App: React.FC = () => {
               {/* Rutas protegidas */}
               <Route path="/upload"element={ <ProtectedRoute element={<UploadBook /> } />}/>
               <Route path="/profile" element={ <ProtectedRoute element={<ProfilePage />} /> }/>
+              <Route path="/edit-profile"element={ <ProtectedRoute element={<EditProfile /> } />}/>
             </Routes>
           </div>
         </div>
