@@ -22,6 +22,7 @@ export default function BookList({ books }: BookListProps) {
                     autor={book.autor}
                     imagen={book.imagen}
                     categoria={book.categoria}
+                    id={book.id}
                 />
             ))}
         </div>

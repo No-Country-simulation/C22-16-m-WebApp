@@ -8,6 +8,7 @@ import LoginPage from './pages/LoginPage';
 import SideBar from './components/layout/SideBar/SideBar';
 import ProfilePage from './pages/ProfilePage';
 import ProtectedRoute from './components/ProtectedRoutes/ProtectedRoute';
+import BookDetails from './components/BookComponents/BookDetails';
 
 const App: React.FC = () => {
   return (
@@ -22,6 +23,7 @@ const App: React.FC = () => {
               <Route path='/about' element={<AboutUs />} />
               <Route path='/login' element={<LoginPage />} />
               <Route path='/category/:categoryId' element={<HomePage />} />
+              <Route path='/book/:id' element={<BookDetails/>} />
 
               {/* Rutas protegidas */}
               <Route path="/upload"element={ <ProtectedRoute element={<UploadBook /> } />}/>

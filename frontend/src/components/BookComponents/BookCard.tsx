@@ -1,11 +1,14 @@
+import { Link } from "react-router-dom";
+
 interface BookCardProps {
     nombre: string;
     autor: string;
     imagen: string;
     categoria: string;
+    id: string;
 }
 
-export default function BookCard({ nombre, autor, imagen, categoria }: BookCardProps) {
+export default function BookCard({ nombre, autor, imagen, categoria, id }: BookCardProps) {
     return (
         <div className="border rounded-lg p-4 shadow-md w-72 bg-amber-100 flex flex-col">
             <img
@@ -18,7 +21,12 @@ export default function BookCard({ nombre, autor, imagen, categoria }: BookCardP
             <span className="text-sm text-gray-500 mb-6">
                 Categoría: {categoria}
             </span>
-            <button className="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 mt-auto">Ver más</button>
+            <Link
+                to={`/book/${id}`} // Enlace a la ruta del libro
+                className="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 mt-auto text-center"
+            >
+                Ver más
+            </Link>
         </div>
     )
 }
