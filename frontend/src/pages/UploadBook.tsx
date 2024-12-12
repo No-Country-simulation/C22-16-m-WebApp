@@ -24,8 +24,8 @@ const UploadBook: React.FC = () => {
   const [formData, setFormData] = useState<FormData>({
     title: "",
     author: "",
-    genre: "for_everyone",  // Valor predeterminado para género
-    condition: "used",      // Valor predeterminado para condición
+    genre: "Para todos",  // Valor predeterminado para género
+    condition: "Usado",      // Valor predeterminado para condición
     description: "",
     image: null,
   });
@@ -154,10 +154,10 @@ const UploadBook: React.FC = () => {
           required
           className="mt-2 w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
         >
-          <option value="for_everyone">Para todos</option>
-          <option value="children">Infantiles</option>
-          <option value="youths">Juveniles</option>
-          <option value="adults">Adultos</option>
+          <option value="Para todos">Para todos</option>
+          <option value="infantiles">Infantiles</option>
+          <option value="juveniles">Juveniles</option>
+          <option value="Adultos">Adultos</option>
         </select>
       </div>
       

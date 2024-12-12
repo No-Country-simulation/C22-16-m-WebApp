@@ -8,7 +8,11 @@ import LoginPage from './pages/LoginPage';
 import SideBar from './components/layout/SideBar/SideBar';
 import ProfilePage from './pages/ProfilePage';
 import ProtectedRoute from './components/ProtectedRoutes/ProtectedRoute';
+<<<<<<< HEAD
 import BookDetails from './components/BookComponents/BookDetails';
+=======
+import EditProfile from './pages/EditProfile';
+>>>>>>> cd4b8c65b40f0d24ed5e0534fa68d7237bfa8605
 
 const App: React.FC = () => {
   return (
@@ -28,6 +32,7 @@ const App: React.FC = () => {
               {/* Rutas protegidas */}
               <Route path="/upload"element={ <ProtectedRoute element={<UploadBook /> } />}/>
               <Route path="/profile" element={ <ProtectedRoute element={<ProfilePage />} /> }/>
+              <Route path="/edit-profile"element={ <ProtectedRoute element={<EditProfile /> } />}/>
             </Routes>
           </div>
         </div>
