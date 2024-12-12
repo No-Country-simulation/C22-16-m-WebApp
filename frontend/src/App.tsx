@@ -8,11 +8,8 @@ import LoginPage from './pages/LoginPage';
 import SideBar from './components/layout/SideBar/SideBar';
 import ProfilePage from './pages/ProfilePage';
 import ProtectedRoute from './components/ProtectedRoutes/ProtectedRoute';
-<<<<<<< HEAD
 import BookDetails from './components/BookComponents/BookDetails';
-=======
-import EditProfile from './pages/EditProfile';
->>>>>>> cd4b8c65b40f0d24ed5e0534fa68d7237bfa8605
+import EditProfile from './pages/EditProfile'
 
 const App: React.FC = () => {
   return (

@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import Books from "/src/services/Books.json";
+import Books from "../../services/Books.json";
 
 type Book = {
     id: string;
