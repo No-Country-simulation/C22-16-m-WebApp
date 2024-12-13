@@ -6,7 +6,9 @@
         "autor": "Antoine De Saint-exupery",
         "imagen": "https://m.media-amazon.com/images/I/714Hvb52n-L._AC_UL320_.jpg",
         "categoria": "Infantiles",
-        "descripcion": "Una obra atemporal que combina fantasía y filosofía, donde un joven príncipe explora distintos planetas y reflexiona sobre la vida, el amor y las relaciones humanas."
+        "descripcion": "Una obra atemporal que combina fantasía y filosofía, donde un joven príncipe explora distintos planetas y reflexiona sobre la vida, el amor y las relaciones humanas.",
+        "usuario": "Jorge Diaz",
+        "telefono": "+54 (9) 2236161148"
     },
     {
         "id": "2",
@@ -14,7 +16,9 @@
         "autor": "Peter Brown",
         "imagen": "https://m.media-amazon.com/images/I/915qFO1BcxL._AC_UY218_.jpg",
         "categoria": "Infantiles",
-        "descripcion": "Una encantadora historia sobre un robot que naufraga en una isla y debe aprender a vivir en armonía con la naturaleza mientras explora los valores de la amistad y la adaptación."
+        "descripcion": "Una encantadora historia sobre un robot que naufraga en una isla y debe aprender a vivir en armonía con la naturaleza mientras explora los valores de la amistad y la adaptación.",
+        "usuario": "Lalo Landa",
+        "telefono": "+57 (1) 5551234"
     },
     {
         "id": "3",
@@ -22,7 +26,9 @@
         "autor": "Rosario Ana",
         "imagen": "https://m.media-amazon.com/images/I/61MFJ+Q2TOL._AC_UY218_.jpg",
         "categoria": "Infantiles",
-        "descripcion": "Un relato lleno de aventuras y misterio, en el que un grupo de amigos emprende un viaje emocionante en busca de una entrada secreta que los llevará a descubrir algo asombroso."
+        "descripcion": "Un relato lleno de aventuras y misterio, en el que un grupo de amigos emprende un viaje emocionante en busca de una entrada secreta que los llevará a descubrir algo asombroso.",
+        "usuario": "Cristina Allende",
+        "telefono": "+56 (9) 1145696324"
     },
     {
         "id": "4",
@@ -30,7 +36,9 @@
         "autor": "Gabriel Garcia Marquez",
         "imagen": "https://m.media-amazon.com/images/I/81SUQuwTljL._AC_UL320_.jpg",
         "categoria": "Juveniles",
-        "descripcion": "Una obra póstuma que explora los encuentros inesperados de Ana Magdalena Bach en sus visitas anuales al cementerio, entrelazando recuerdos, pasiones y reflexiones íntimas."
+        "descripcion": "Una obra póstuma que explora los encuentros inesperados de Ana Magdalena Bach en sus visitas anuales al cementerio, entrelazando recuerdos, pasiones y reflexiones íntimas.",
+        "usuario": "Aureliano Buendia",
+        "telefono": "+57 (1) 5551234"
     },
     {
         "id": "5",
@@ -38,7 +46,9 @@
         "autor": "J k Rowling",
         "imagen": "https://m.media-amazon.com/images/I/810uqfAaDsL._AC_UY218_.jpg",
         "categoria": "Juveniles",
-        "descripcion": "La tercera entrega de la icónica saga, donde Harry enfrenta nuevos retos al descubrir secretos sobre su pasado y luchar contra el peligroso Sirius Black mientras sigue en Hogwarts."
+        "descripcion": "La tercera entrega de la icónica saga, donde Harry enfrenta nuevos retos al descubrir secretos sobre su pasado y luchar contra el peligroso Sirius Black mientras sigue en Hogwarts.",
+        "usuario": "Nancy Gonzalez",
+        "telefono": "011 51 84 123456"
     },
     {
         "id": "6",
@@ -46,7 +56,9 @@
         "autor": "Alejandro Sequera",
         "imagen": "https://m.media-amazon.com/images/I/613dCdJY2CL._AC_UL320_.jpg",
         "categoria": "Juveniles",
-        "descripcion": "Una conmovedora narración sobre la superación, el duelo y la búsqueda de la identidad mientras el autor recorre sus recuerdos y experiencias más personales."
+        "descripcion": "Una conmovedora narración sobre la superación, el duelo y la búsqueda de la identidad mientras el autor recorre sus recuerdos y experiencias más personales.",
+        "usuario": "Mario Castaneda",
+        "telefono": "+54 (9) 1146763214"
     },
     {
         "id": "7",
@@ -54,7 +66,9 @@
         "autor": "Isabel Allende",
         "imagen": "https://m.media-amazon.com/images/I/81FMmcKIT1L._AC_UL320_.jpg",
         "categoria": "Adultos",
-        "descripcion": "Una novela que entrelaza las historias de dos niños separados por el tiempo y el espacio, explorando temas como la migración, la pérdida y la resiliencia."
+        "descripcion": "Una novela que entrelaza las historias de dos niños separados por el tiempo y el espacio, explorando temas como la migración, la pérdida y la resiliencia.",
+        "usuario": "Julieta Rosales",
+        "telefono": "+58 414 056 356"
     },
     {
         "id": "8",
@@ -62,7 +76,9 @@
         "autor": "Roberto Martinez Guzmán",
         "imagen": "https://m.media-amazon.com/images/I/71m+FAPBVTL._AC_UL320_.jpg",
         "categoria": "Adultos",
-        "descripcion": "Un intrigante thriller policial que mezcla misterio y suspenso mientras un detective intenta resolver un caso lleno de giros inesperados."
+        "descripcion": "Un intrigante thriller policial que mezcla misterio y suspenso mientras un detective intenta resolver un caso lleno de giros inesperados.",
+        "usuario": "Tamara Suarez",
+        "telefono": "+57 (1) 26794526"
     },
     {
         "id": "9",
@@ -70,6 +86,8 @@
         "autor": "Gregg Dunnet",
         "imagen": "https://m.media-amazon.com/images/I/615SuNj2kYL._AC_UL320_.jpg",
         "categoria": "Adultos",
-        "descripcion": "Una novela de misterio ambientada en un tranquilo pueblo costero, donde un surfista descubre oscuros secretos relacionados con un asesinato mientras busca la verdad entre las olas."
+        "descripcion": "Una novela de misterio ambientada en un tranquilo pueblo costero, donde un surfista descubre oscuros secretos relacionados con un asesinato mientras busca la verdad entre las olas.",
+        "usuario": "Julian Serrano",
+        "telefono": "+58 433 087 931"
     }
 ]
