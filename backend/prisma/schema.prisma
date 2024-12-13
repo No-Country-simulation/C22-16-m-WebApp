@@ -1,0 +1,53 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserStatus {
+  active
+  inactive
+}
+
+enum BookStatus {
+  available
+  unavailable
+}
+
+model User {
+  id            Int             @id @default(autoincrement())
+  name          String
+  lastname      String?
+  email         String          @unique
+  password      String
+  phone         String?
+  city          String?
+  country       String?
+  imageUrl      String?         @default("https://res.cloudinary.com/dh4ejjm7s/image/upload/v1732985535/noProfileImg_cjadns.png")
+  status        UserStatus      @default(active)
+  createdAt     DateTime        @default(now())
+  books         Book[]          @relation("UserBooks")
+}
+
+model Book {
+  id            Int             @id @default(autoincrement())
+  title         String
+  author        String
+  genre         String          @default("Para todos")
+  condition     String          @default("Usado")
+  description   String?         @default("Sin descripción")
+  imageUrl      String?         @default("https://res.cloudinary.com/dh4ejjm7s/image/upload/v1732985929/noBook_hxmr2x.jpg")
+  status        BookStatus      @default(available)
+  createdAt     DateTime        @default(now())
+  userId        Int
+  user          User            @relation("UserBooks", fields: [userId], references: [id])
+}
